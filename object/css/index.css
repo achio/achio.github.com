@@ -1,0 +1,128 @@
+body{
+	font-size: 16px;
+}
+h2{
+	padding-bottom: 14px;
+}
+h3{
+	font-size: 30px;
+}
+h5{
+	font-size: 20px;
+}
+.main{
+	padding: 160px 0 140px 0;
+}
+.text-grey{
+	color: #ccc;
+}
+.text-white{
+	color: #fff;
+}
+.text-shadow{
+	text-shadow: 1px 1px #000;
+}
+.about{
+	background-color: #fff;
+	box-shadow: 0 1px 5px rgba(50, 50, 50, 0.08);
+	min-height: 330px;
+    padding: 40px;
+}
+.accent {
+    color: #308030;
+    font-family: "Proxima Bold";
+    line-height: 14px;
+}
+.skills {
+    background: #7ac143 none repeat scroll 0 0;
+    color: #f5f5f5;
+    min-height: 330px;
+    padding: 40px
+}
+.skills .progress {
+    border-radius: 0;
+    height: 4px;
+}
+.skills .progress .progress-bar-primary {
+    background: #208020 none repeat scroll 0 0;
+}
+.skills strong {
+    display: inline-block;
+    font-weight: normal;
+    padding-bottom: 6px;
+}
+.education {
+    background: #7ac143 none repeat scroll 0 0;
+    color: #f5f5f5;
+    margin-top: 30px;
+    min-height: 330px;
+    padding: 40px;
+}
+.education .education-content{
+	padding-bottom: 14px;
+}
+.education-school{
+	color: #f5f5f5;
+}
+.education-school h5{
+	display: inline-block;
+}
+.education-school span{
+	padding-left: 20px;
+	padding-right: 10px;
+}
+.languages {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 1px 5px rgba(50, 50, 50, 0.08);
+    margin-top: 30px;
+    min-height: 330px;
+    padding: 40px
+}
+.languages ul {
+    padding: 10px;
+}
+.contact {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 1px 5px rgba(50, 50, 50, 0.08);
+    margin-top: 30px;
+    min-height: 330px;
+    padding: 40px
+}
+.experience{
+	background: #7ac143 none repeat scroll 0 0;
+    color: #f5f5f5;
+    margin-top: 30px;
+    min-height: 330px;
+    padding: 40px
+}
+.experience-content h5{
+	display: inline-block;
+}
+.experience-content span{
+	padding-left: 20px;
+	padding-right: 10px;
+}
+.footer{
+	margin: 20px 0;
+}
+.social-icons li{
+	list-style: none;
+}
+.social-icons li a {
+    background: #7ac143 none repeat scroll 0 0;
+    border-radius: 50%;
+    bottom: 10px;
+    color: #fff;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    top: 10px;
+    transition: all 0.4s ease-in 0s;
+    width: 40px;
+}
+.social-icons li a:hover{
+	background-color: #000;
+}

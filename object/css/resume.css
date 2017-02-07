@@ -1,0 +1,156 @@
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+.container h2 {
+  text-transform: capitalize;
+  font-size: 35px;
+}
+@media screen and (min-width: 1450px) {
+  .container {
+    width: 1450px;
+  }
+}
+.mw-detailInfo {
+  padding-top: 130px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.mw-myInfo {
+  background-color: #189c99;
+  padding-top: 130px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #fff;
+  height: 1550px;
+}
+.mw-myPic {
+  width: 230px;
+  height: 230px;
+  background-color: #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.mw-myPic img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.mw-name {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.mw-status {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 24px;
+}
+.mw-icon {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-color: #189c99;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 6px;
+}
+.mw-icon img {
+  width: 30px;
+  height: 30px;
+}
+.mw-divider {
+  width: 80%;
+  margin: 30px auto;
+  border-top: 2px solid #fff;
+}
+.mw-title {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 30px;
+  margin: 40px 0;
+}
+.mw-aboutMe {
+  font-size: 18px;
+  word-wrap: break-word;
+  text-align: center;
+}
+.mw-list p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.mw-list p a {
+  color: inherit;
+}
+.mw-details {
+  margin-left: 25px;
+  margin-top: 35px;
+  position: relative;
+}
+.mw-details .mw-progress {
+  margin-left: 50px;
+}
+.mw-details .mw-progress strong {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.mw-details .mw-progress .progress {
+  display: inlin-block;
+}
+.mw-iconBox {
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 50%;
+  text-align: center;
+}
+.mw-iconBox img {
+  width: 60%;
+  margin: 20% 0;
+}
+.mw-contact li {
+  text-align: center;
+}
+.mw-details-content h3 {
+  text-transform: capitalize;
+  color: #189c99;
+  font-weight: bold;
+  line-height: 24px;
+}
+.mw-details-content h3 .mw-point {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #189c99;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+.mw-details-content h4 {
+  text-transform: capitalize;
+  margin-left: 45px;
+  font-weight: bold;
+}
+.mw-details-content p {
+  margin-left: 45px;
+  color: grey;
+  font-size: 22px;
+  word-wrap: break-word;
+}
+.mw-line {
+  position: absolute;
+  border-left: 1px solid grey;
+  height: 242px;
+  left: 7px;
+  top: 19px;
+  z-index: -1;
+}
+.mw-progress-bgColor {
+  background-color: #189c99;
+}
